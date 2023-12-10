@@ -1,0 +1,26 @@
+{
+    "intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["Hello", "Hey", "Hi", "Good day", "greetings", "what's up", "how's it going", "what's good"],
+        "responses" : ["Hey! What can I do for you", "Hello, how can I help you today?"]
+    }, 
+    {
+        "tag": "goodbye", 
+        "patterns": ["see you later,", "goodbye", "cya", "have a good one", "farewell"],
+        "responses": ["Goodbye!", "See you later!", "Have a good one", "See you later"]
+    }, 
+    {
+        "tag": "thanks", 
+        "patterns": ["thanks", "thank you", "thank you", "appreciate it", "thanks a lot"],
+        "responses": ["You're welcome!", "No problem, happy to help", "Glad I could help you"]
+    },
+    {
+        "tag": "math",
+        "patterns": ["What is", "Calculate", "Tell me the result of", "Math", "Solve", "Compute"],
+        "responses": ["The result is {result}."]
+    }
+    
+
+]
+}
